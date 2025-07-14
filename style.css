@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url(/Frutiger.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Frutiger';
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #888;
+    line-height: 2rem;
+}
+
+nav a:hover {
+    color: #111;
+}
+
+nav a:active {
+    color: #ccc;
+}
+
+h2 {
+    text-align: center;
+    margin: 16rem;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    color: #555
+}
+
